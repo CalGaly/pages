@@ -49,7 +49,7 @@ nav ul li a:hover{
     width: 100%;
     height: 40vh;
     min-height: 340px;
-    background-image: url(/Users/kiyotaka/Documents/VSCode/CalGaly/image/IMG_8444.jpg);
+    background-image: url(../image/IMG_8444.jpg);
     background-size: cover;
     background-position: center;
 }

@@ -237,7 +237,13 @@
             </div>
         </section>
         
+        <section id="section-8">
         <form method="POST" data-netlify="true">
+            <div class="item">
+                <label class="label">お問い合わせ項目</label>
+                <input type="radio" name="fap" value="male">お問い合わせ
+                <input type="radio" name="fap" value="female">メール申込み
+            </div>
             <div class="item">
                 <label class="label">お名前</label>
                 <input class="inputs" type="text" name="name">
@@ -247,13 +253,14 @@
                 <input class="inputs" type="email" name="email">
             </div>
             <div class="item">
-                <label class="label">ご意見</label>
-                <textarea class="inputs"></textarea>
+                <label class="label">お問い合わせ内容</label>
+                <textarea name="message"></textarea>
             </div>
             <div class="btn-area">
                 <input type="submit" value="送信">
             </div>
         </form>
+        </section>
 
         <article id="section-7">
             <ul>
